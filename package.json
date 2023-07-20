@@ -1,6 +1,8 @@
 {
-  "homepage": "https://marcvanniekerk.github.io/react-static-header-example",
+  "homepage": "https://marcvanniekerk.github.io/scout_react_test",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
